@@ -1,4 +1,4 @@
-##1. Crear una clase llamada Círculo la cual contiene:
+##1. Crear una clase llamada Círculo la cual contiene:\n
 a. Dos variables de instancia privada: radio (de tipo double) y color (de tipo String), con valor por defecto de 12.5 y "azul", respectivamente.
 b. Dos constructores sobrecargados (overloaded): un constructor predeterminado o por default sin argumentos y otro constructor que tiene un argumento de input double para el valor del radio.
 c. Dos métodos públicos: getRadio() y getArea(), que devuelven el radio y el área de esta instancia, respectivamente. Para calcular el área de un círculo, deberás seguir la siguiente fórmula: area = radius*radius*Math.PI
