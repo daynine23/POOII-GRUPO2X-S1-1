@@ -47,3 +47,18 @@ Podría asignarle un valor al área que no sigue la lógica del calculo de área
 ## **Diagrama de clases en PlantUML:**
 
 //www.plantuml.com/plantuml/png/RO_12i8m343l_OgmqqGSUFKW4_z0lOc7s8PIxHP9Mo_3VtV3RHHSZk-HHrA7Y19JuzKBzHCjGK4F4ksqusq1dO9-jCSGuEX49yy36sS3XjFT4mWQnna-Ht6j1SsUPSRhgL2k5bXUolt8BSNJeCfbTn32KNtK_yqN2X6wRFFDpa23hYr_frvlW6B3LEWR-MPLxUVlTv02gffQanh_1G00
+
+
+
+## ** f. En la clase “CirculoTest.java”, ejecuta la siguiente instrucción: System.out.println(c1.radius), donde c1 es una instancia del objeto Círculo. ¿Qué ocurió?. Explique el mensaje de error.** 
+No se puede llamar a los valores directamente, solo mediante getters.
+## ** g. En la clase “CirculoTest.java”, ejecuta la siguiente instrucción: c1.radius=42.0, donde c1 es una instancia del objeto Círculo. ¿Qué ocurió?. Explique el mensaje de error. **
+No se puede asignar valores directamente.
+## ** h. ¿Con qué método modificas el valor de un atributo de la clase “Circulo.java”? **
+Mediante el constructor se puede asignar el valor del radio, no directamente.
+## ** i. Crear un objeto de tipo Círculo y modifica los valores por defecto. **
+## ** j. ¿Para qué sirve la palabra reservada “this”?. Modifique el constructor con argumentos (radio y color) y utiliza “this” y métodos setters en la clase “Circulo.java”. ** 
+para diferenciar el nombre del argumento con el atributo de la clase
+## ** k. ¿Para qué sirve el método toString()?  **
+Devuelve los datos en string
+## ** l. Incluir el método toString() en la clase “Circulo.java”. **
